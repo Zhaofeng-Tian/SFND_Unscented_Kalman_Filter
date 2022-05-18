@@ -6,6 +6,9 @@ Sensor Fusion UKF Highway Project Starter Code
 In this project you will implement an Unscented Kalman Filter to estimate the state of multiple cars on a highway using noisy lidar and radar measurements. Passing the project requires obtaining RMSE values that are lower that the tolerance outlined in the project rubric. 
 
 ## Extended Kalman Filter
+
+<img src="./images/EKF.png" width = "700" height = "500" alt="EKF" align=center />
+Code
 ``` c++
 // Kalman Filter variables
 VectorXd x;	// object state
@@ -32,7 +35,6 @@ x = F * x + u;
 MatrixXd Ft = F.transpose();
 P = F * P * Ft + Q;
 ```
-<img src="./images/EKF.png" width = "700" height = "600" alt="EKF" align=center />
 
 The main program can be built and ran by doing the following from the project top directory.
 
