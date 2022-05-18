@@ -8,7 +8,8 @@ In this project you will implement an Unscented Kalman Filter to estimate the st
 ## Extended Kalman Filter
 
 <img src="./images/EKF.png" width = "700" height = "500" alt="EKF" align=center />
-Code
+Code:
+
 ``` c++
 // Kalman Filter variables
 VectorXd x;	// object state
