@@ -32,7 +32,7 @@ x = F * x + u;
 MatrixXd Ft = F.transpose();
 P = F * P * Ft + Q;
 ```
-
+<img src="./images/EKF.png" width = "50%" height = "50%" alt="EKF" align=center />
 
 The main program can be built and ran by doing the following from the project top directory.
 
